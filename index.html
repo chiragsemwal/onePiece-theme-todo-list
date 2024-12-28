@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ONE PIECE(todo-list)</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="todo-container" data-tilt>
+        <h1><span>TO-DO LIST</span></h1>
+        <div class="todo-input-div">
+          <input
+            id="todo-input"
+            type="text"
+            placeholder="Type to add task..."
+          />
+          <button id="addTask-btn">Add Task</button>
+        </div>
+
+        <div class="todo-list">
+          <ul id="todo-list-ul"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="vanilla-tilt.js"></script>
+  </body>
+</html>
